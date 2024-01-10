@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('hot branch') {
             steps {
-               sh 'echo "This is hot branch code developing"' 
+               sh 'echo "This is hot branchhot code developing"' 
+	    
             }
         }
         stage('sprint1') {
